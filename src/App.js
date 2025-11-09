@@ -621,7 +621,7 @@ export default function App() {
       <FullscreenImageModal src={PHOTO_URL} open={showImageModal} onClose={() => setShowImageModal(false)} />
 
       {/* Heart text modal (shows single heart) */}
-      <TextModal text={"❤️"} open={showLoveModal} onClose={() => setShowLoveModal(false)} />
+      <TextModal text={"I Love You Ace ❤️"} open={showLoveModal} onClose={() => setShowLoveModal(false)} />
 
       {/* Dialog overlay */}
       {showDialog && (
