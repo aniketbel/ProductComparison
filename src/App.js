@@ -1,4 +1,3 @@
-// src/App.jsx
 import React, { useEffect, useRef, useState } from "react";
 
 /* ---------------- Data ---------------- */
@@ -116,8 +115,8 @@ function ImageTile({ text, onClick, side }) {
   const [anim, setAnim] = useState(false);
   const [animSide, setAnimSide] = useState(null); // 'left' | 'right'
   const slug = slugify(text);
-  const srcJpg = `/images/thisorthat/${slug}.jpg`;
-  const srcPng = `/images/thisorthat/${slug}.png`;
+  const srcJpg = ``;
+  const srcPng = ``;
   const [src, setSrc] = useState(srcJpg);
 
   useEffect(() => {
